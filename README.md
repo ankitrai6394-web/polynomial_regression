@@ -1,2 +1,9 @@
-# polynomial_regression
-Here’s a concise version under 200 words:  Polynomial Regression is used to model nonlinear relationships between independent and dependent variables. Unlike linear regression, which fits a straight line, polynomial regression fits a curve by adding higher-degree terms of the independent variable (e.g.,  𝑋 2 , 𝑋 3 X 2 ,X 3 ) as features.
+#POLYNOMIAL REGRESSION
+Polynomial Regression is a supervised machine learning technique used to model non-linear relationships between independent variables and a dependent variable. It is an extension of linear regression that introduces polynomial terms (such as squared or cubed features) to better fit complex patterns in data. 
+
+Although it models non-linear trends, polynomial regression is still considered a form of linear regression because it remains linear with respect to the model parameters.In standard linear regression, the relationship between input and output is assumed to be linear, which often leads to underfitting when the actual data shows curvature. Polynomial regression overcomes this limitation by transforming the original features into higher-degree polynomial features. For example, instead of fitting only x the model may include  or higher powers depending on the chosen degree. This allows the regression curve to bend and adapt more closely to the data distribution.
+The general mathematical form of a polynomial regression model of degree n is:
+
+y=β0​+β1​x+β2​x2+β3​x3+⋯+βn​xn+ε
+
+Polynomial regression is widely used in scenarios where data exhibits curved trends, such as growth analysis, sales forecasting, cost prediction, and scientific measurements. However, choosing the appropriate degree of the polynomial is critical. A low degree may underfit the data, while a very high degree can lead to overfitting, capturing noise instead of meaningful patterns. Techniques such as cross-validation and regularization are often used to determine the optimal degree.
